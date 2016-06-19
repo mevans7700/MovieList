@@ -10,4 +10,5 @@
     <dimen name="text_size_title">20sp</dimen>
     <dimen name="text_size_date">16sp</dimen>
     <dimen name="text_size_overview">15sp</dimen>
+    <item name="overview_lines" type="dimen" format="integer">12</item>
 </resources>

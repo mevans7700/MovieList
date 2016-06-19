@@ -59,7 +59,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="5dp"
-            style="@style/RatingBar" />
+            style="@style/RatingBar"
+            android:stepSize=".1"/>
 
         <TextView
             android:id="@+id/overview"
