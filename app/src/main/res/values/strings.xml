@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Movie List</string>
+
+    <string name="loading">Loading…</string>
+    <string name="general_loading_message">Loading, please wait…</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="progress_text_get_video">Getting video, please wait…</string>
+    <string name="release_date_label">Release Date:</string>
+    <string name="error_title">Server Error</string>
+    <string name="error_text">Unexpected response from server:</string>
+    <string name="movie_get_error">Something unexpected happened. We were not able to display the list of movies. Please try again.</string>
+    <string name="video_error">Something unexpected happened. We were not able to video for the selected move.  Please try again.</string>
+</resources>

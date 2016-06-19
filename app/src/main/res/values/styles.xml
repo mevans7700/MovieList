@@ -1,0 +1,64 @@
+<resources>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:icon">@drawable/ic_ab_icon</item>
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/beige</item>
+        <item name="android:textSize">@dimen/text_size_actionbar</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="TextAppearance.Title">
+        <item name="android:textColor">@color/beige</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextAppearance.Overview">
+        <item name="android:textColor">@color/beige</item>
+        <item name="android:textSize">@dimen/text_size_overview</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextAppearance.Date">
+        <item name="android:textColor">@color/beige</item>
+        <item name="android:textSize">@dimen/text_size_date</item>
+    </style>
+
+    <style name="RatingBar">
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:progressTint">@android:color/holo_red_dark</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+</resources>
